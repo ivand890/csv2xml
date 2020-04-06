@@ -31,7 +31,7 @@ setup(
     keywords='text processing markup xml csv converter',
     packages=find_packages(), 
     python_requires='>=3.5',
-    install_requires=['peppercorn'],  # TODO
+    install_requires=['pandas'],
     entry_points={
         'console_scripts': [
             'csv2xml=csv2xml:main',
